@@ -1,0 +1,138 @@
+/* Estilos para o cabeçalho */
+header {
+  background-color: #333;
+  padding: 20px;
+  color: #f7f4f4;
+  text-align: center;
+}
+
+/* Estilos para as seções */
+section {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #f1e8e8;
+}
+
+/* Estilos para as habilidades */
+#skills ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#skills li {
+  margin-bottom: 10px;
+}
+
+/* Estilos para o rodapé */
+footer {
+  background-color: #8b8787;
+  padding: 10px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+/* Estilos para o menu */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Estilos para o menu suspenso */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #d4bcbc;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content li {
+      display: block;
+    }
+    
+    .dropdown:hover .dropdown-content { 
+      display: block;
+    }
+  
+  
+    /* COR DO SEU BODY*/
+    body {
+      background-color: #8286ca;
+      color: #333;
+      transition: background-color 0.3s ease;
+    }
+    
+    header {
+      background-color: #333;
+      color: #ffffff;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    button {
+      background-color: #333;
+      color: #fff;
+      padding: 8px 12px;
+      border: none;
+      cursor: pointer;
+    }
+    
+    section {
+      padding: 20px;
+    }
+    
+    h1
+  {
+      text-align: center;
+      color: rgb(12, 1, 1);
+      font-size: 40px;
+      margin-bottom: 20px;
+      padding: 20px;
+      border: 1px solid #ccc;
+  }
+.container
+{ 
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+
+}
+h3
+  {
+    text-align: center;
+    padding: 1%;
+    max-width: auto;
+  }
+  video
+  {
+    text-align: center;
+    max-width: auto;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+  .imagens
+  {
+  width: 600dp;
+  height: 1px;
+  }

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>WELCOME</title>
+</head>
+bem vindo!!
+<body>
+    <script>
+        function scrollToElement(elementId) {
+          var element = document.getElementById(elementId);
+          if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+          }
+        }
+      </script>
+
+ <nav>
+    <ul>
+      <li><a href="#">Página Inicial</a></li>
+      <li><a href="javascript:void(0);" onclick="scrollToElement('info')">Informações</a></li>
+      <li class="dropdown">
+        <a href="#">Criaçoes</a>
+        <ul class="dropdown-content">
+          <li><a href="#">HTML5</a></li>
+          <li><a href="#">CSS3</a></li>
+          <li><a href="#">javascript</a></li>
+        </ul>
+      </li>
+      <li class="Redes"><a href="#"><img src="#" alt="icon"></a></li>
+      <li class="Redes"><a href="#"><img src="#" alt="icon"></a></li>
+    </ul>
+  </nav>
+
+
+    <h1>Descriçao:</h1>
+    <p>Algumas coisas ainda está sendo realocadas nos seus devidos lugar!!</p>
+    <img src="#" alt="imagem propaganda">
+    <hr>
+
+
+    <h3>Video ! </h3> 
+    <video src="videos/VALORANT -mp4.mp4"width="400" height="300" controls>
+        Seu navegador não suporta a tag de vídeo.
+      </video>Algumas Informações ainda estao sendo carregadas...
+    
+        <br>
+
+        
+        <h4>Playlist com as melhores musicas!</h4>
+        <audio preload="metadata"  controls loop>
+            <source src="musicas/sound-track.mp3 "type="audio/mp3">
+        </audio>
+
+        <div class="imagens">
+        <h1>Informações</h1>
+        <img src="imagens/breck.jpg" alt="imagem"></div>
+</body>
+</html>
